@@ -24,6 +24,10 @@ public class Movimento {
 		cc.Desacelerar();
 		cc.Desacelerar();
 		cc.Desacelerar();
+		System.out.println("----- Super Carro -----");
+		SuperCarro sc = new SuperCarro();
+		sc.modelo = "BMW ZZZSuper";
+		System.out.println("Modelo do Super Carro" + sc.modelo);
 	}
 
 }
